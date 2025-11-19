@@ -1,11 +1,40 @@
 divisions:
 
-
-
-  - id: L2:batsfjord:1838
+  - id: L2:vardo:1869
     parent: L1:finnmark:1787
+    name: Vardø
+    alt_names: [Vardo,Várggát]
+    division_name: landdistrikt
+    from: 1868-05-22
+    to: 1956-08-23
+    was: [L2:vardo:1838]
+    became: [L2:batsfjord:1956]
+
+  - id: L2:batsfjord:1956
+    parent: L1:finnmark:1919
     name: Båtsfjord
     alt_names: [Batsfjord,Báhcavuotna]
     division_name: kommune
-    from: 1838-01-01
-    to:
+    from: 1956-08-24
+    to: 2019-12-31
+    was: [L2:vardo:1869]
+    became: [L2:batsfjord:2020]
+
+  - id: L2:batsfjord:2020
+    parent: L1:troms-og-finnmark:2020
+    name: Båtsfjord
+    alt_names: [Batsfjord,Báhcavuotna]
+    division_name: kommune
+    from: 2020-01-01
+    to: 2023-12-31
+    was: [L2:batsfjord:1956]
+    became: [L2:batsfjord:2024]
+
+  - id: L2:batsfjord:2024
+    parent: L1:finnmark:2024
+    name: Båtsfjord
+    alt_names: [Batsfjord,Báhcavuotna]
+    division_name: kommune
+    from: 2024-01-01
+    to: null
+    was: [L2:batsfjord:2020]

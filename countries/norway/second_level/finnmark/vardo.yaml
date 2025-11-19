@@ -6,15 +6,34 @@ divisions:
     alt_names: [Vardo,Várggát]
     division_name: formannskapsdistrikt
     from: 1838-01-01
-    to: 1868-12-31
-    became: [L2:vardo:1869]
+    to: 1963-12-31
+    became: [L2:vardo:1869,L2:vardo:1964]
 
-  - id: L2:vardo:1869
-    parent: L1:finnmark:1787
+  - id: L2:vardo:1964
+    parent: L1:finnmark:1919
     name: Vardø
     alt_names: [Vardo,Várggát]
-    division_name: landdistrikt
-    from: 1869-01-01
-    to: 1956-12-31
+    division_name: kommune
+    from: 1964-01-01
+    to: 2019-12-31
     was: [L2:vardo:1838]
-    became: []
+    became: [L2:vardo:2020]
+
+  - id: L2:vardo:2020
+    parent: L1:troms-og-finnmark:2020
+    name: Vardø
+    alt_names: [Vardo,Várggát]
+    division_name: kommune
+    from: 2020-01-01
+    to: 2023-12-31
+    was: [L2:vardo:1964]
+    became: [L2:vardo:2024]
+
+  - id: L2:vardo:2024
+    parent: L1:finnmark:2024
+    name: Vardø
+    alt_names: [Vardo,Várggát]
+    division_name: kommune
+    from: 2024-01-01
+    to: null
+    was: [L2:vardo:2020]
