@@ -1,0 +1,11 @@
+divisions:
+
+  - id: L2:soroysund:1919
+    parent: L1:finnmark:1919
+    name: Sørøysund
+    alt_names: [Soroysund]
+    division_name: kommune
+    from: 1919-01-01
+    to: 1991-12-31
+    was: [L2:hammerfest:1852]
+    became: [L2:hammerfest:1992]

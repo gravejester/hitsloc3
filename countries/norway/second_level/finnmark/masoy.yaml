@@ -1,0 +1,30 @@
+divisions:
+
+  - id: L2:masoy:1839
+    parent: L1:finnmark:1787
+    name: Maasøe
+    alt_names: [Måsøy,Maasoe,Maaso,Masoy,Maso,Muosát]
+    division_name: kommune
+    from: 1839-01-01
+    to: 2019-12-31
+    was: [L2:hammerfest:1838]
+    became: [L2:masoy:2020]
+
+  - id: L2:masoy:2020
+    parent: L1:troms-og-finnmark:2020
+    name: Måsøy
+    alt_names: [Maasøe,Maasoe,Maaso,Masoy,Maso,Muosát]
+    division_name: kommune
+    from: 2020-01-01
+    to: 2023-12-31
+    was: [L2:masoy:1839]
+    became: [L2:masoy:2024]
+
+  - id: L2:masoy:2024
+    parent: L1:finnmark:2024
+    name: Måsøy
+    alt_names: [Maasøe,Maasoe,Maaso,Masoy,Maso,Muosát]
+    division_name: kommune
+    from: 2024-01-01
+    to: null
+    was: [L2:masoy:2020]

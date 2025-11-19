@@ -1,0 +1,48 @@
+divisions:
+
+  - id: L2:hammerfest:1838
+    parent: L1:finnmark:1787
+    name: Hammerfest
+    alt_names: [Hámmerfeasta]
+    division_name: by og landdistrikt
+    from: 1838-01-01
+    to: 1991-12-31
+    became: [L2:masoy:1839,L2:hammerfest:1852,L2:hammerfest:1992]
+
+  - id: L2:hammerfest:1852
+    parent: L1:finnmark:1787
+    name: Hammerfest
+    division_name: landdistrikt
+    from: 1852-01-01
+    to: 1918-12-31
+    was: [L2:hammerfest:1838]
+    became: [L2:kvalsund:1869,L2:soroysund:1919]
+
+  - id: L2:hammerfest:1992
+    parent: L1:finnmark:1919
+    name: Hammerfest
+    alt_names: [Hámmerfeasta]
+    division_name: kommune
+    from: 1992-01-01
+    to: 2019-12-31
+    was: [L2:soroysund:1919]
+    became: [L2:hammerfest:2020]
+
+  - id: L2:hammerfest:2020
+    parent: L1:troms-og-finnmark:2020
+    name: Hammerfest
+    alt_names: [Hámmerfeasta]
+    division_name: kommune
+    from: 2020-01-01
+    to: 2023-12-31
+    was: [L2:kvalsund:1869,L2:hammerfest:1992]
+    became: [L2:hammerfest:2024]
+
+  - id: L2:hammerfest:2024
+    parent: L1:finnmark:2024
+    name: Hammerfest
+    alt_names: [Hámmerfeasta]
+    division_name: kommune
+    from: 2024-01-01
+    to: null
+    was: [L2:hammerfest:2020]
