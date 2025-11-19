@@ -1,0 +1,59 @@
+divisions:
+
+  - id: L1:trondelag:1687
+    parent: NO
+    name: Trondhjems amt
+    alt_names: [Trondheim]
+    division_name: amt
+    from: 1687-01-01
+    to: 1804-09-24
+    became: [L1:nordre-trondhjem:1804,L1:sondre-trondhjem:1804]
+
+  - id: L1:nordre-trondhjem:1804
+    parent: NO
+    name: Nordre Trondhjems amt
+    alt_names: [Trondheim]
+    division_name: amt
+    from: 1804-09-25
+    to: 1918-12-31
+    was: [L1:trondelag:1687]
+    became: [L1:nord-trondelag:1919]
+
+  - id: L1:nord-trondelag:1919
+    parent: NO
+    name: Nord-Trøndelag
+    alt_names: [Nord-Trondelag]
+    division_name: fylke
+    from: 1919-01-01
+    to: 2017-12-31
+    was: [L1:nordre-trondhjem:1804]
+    became: [L1:trondelag:2018]
+
+  - id: L1:sondre-trondhjem:1804
+    parent: NO
+    name: Søndre Trondhjems amt
+    alt_names: [Trondheim]
+    division_name: amt
+    from: 1804-09-25
+    to: 1918-12-31
+    was: [L1:trondelag:1687]
+    became: [L1:sor-trondelag:1919]
+
+  - id: L1:sor-trondelag:1919
+    parent: NO
+    name: Sør-Trøndelag
+    alt_names: [Sor-Trondelag]
+    division_name: fylke
+    from: 1919-01-01
+    to: 2017-12-31
+    was: [L1:sondre-trondhjem:1804]
+    became: [L1:trondelag:2018]
+
+  - id: L1:trondelag:2018
+    parent: NO
+    name: Trøndelag
+    alt_names: [Trondelag,Trööndelage,Troondelage]
+    division_name: fylke
+    from: 2018-01-01
+    to: null
+    was: [L1:nord-trondelag:1919,L1:sor-trondelag:1919]

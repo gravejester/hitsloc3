@@ -1,0 +1,10 @@
+divisions:
+
+  - id: L2:feiring:1870
+    parent: L1:akershus:1662
+    name: Feiring
+    division_name: kommune
+    from: 1870-01-01
+    to: 1963-12-31
+    was: [L2:hurdal:1838]
+    became: [L2:eidsvoll:1918]

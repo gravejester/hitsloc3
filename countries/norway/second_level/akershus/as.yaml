@@ -1,0 +1,38 @@
+divisions:
+
+  - id: L2:as:1838
+    parent: L1:akershus:1662
+    name: Aas
+    division_name: kommune
+    from: 1838-01-01
+    to: 1920-12-31
+    became: [L2:as:1921]
+
+  - id: L2:as:1921
+    parent: L1:akershus:1919
+    name: Ås
+    alt_names: [As, Aas]
+    division_name: kommune
+    from: 1921-01-01
+    to: 2019-12-31
+    was: [L2:as:1838]
+    became: [L2:as:2020]
+
+  - id: L2:as:2020
+    parent: L1:viken:2020
+    name: Ås
+    alt_names: [As, Aas]
+    division_name: kommune
+    from: 2020-01-01
+    to: 2023-12-31
+    was: [L2:as:1921]
+    became: [L2:as:2024]
+
+  - id: L2:as:2024
+    parent: L1:akershus:2024
+    name: Ås
+    alt_names: [As, Aas]
+    division_name: kommune
+    from: 2024-01-01
+    to: null
+    was: [L2:as:2020]

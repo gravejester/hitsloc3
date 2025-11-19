@@ -1,0 +1,22 @@
+divisions:
+
+  # Røyken KOMMUNE
+
+  - id: L2:royken:1837
+    parent: L1:buskerud:1685
+    name: Røyken
+    division_name: kommune
+    alt_names: [Royken]
+    from: 1837-01-01
+    to: 1918-12-31
+    became: [L2:royken:1919]
+
+  - id: L2:royken:1919
+    parent: L1:buskerud:1919
+    name: Røyken
+    division_name: kommune
+    alt_names: [Royken]
+    from: 1919-01-01
+    to: 2019-12-31
+    was: [L2:royken:1837]
+    became: [L2:asker:2020]

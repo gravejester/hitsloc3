@@ -1,0 +1,26 @@
+divisions:
+
+  - id: L2:jevnaker:1838
+    parent: L1:akershus:1662
+    name: Jevnaker
+    division_name: kommune
+    from: 1838-01-01
+    to: 2019-12-31
+    became: [L2:lunner:1898,L2:jevnaker:2020]
+
+  - id: L2:jevnaker:2020
+    parent: L1:viken:2020
+    name: Jevnaker
+    division_name: kommune
+    from: 2020-01-01
+    to: 2023-12-31
+    was: [L2:jevnaker:1838]
+    became: [L2:jevnaker:2024]
+
+  - id: L2:jevnaker:2024
+    parent: L1:akershus:2024
+    name: Jevnaker
+    division_name: kommune
+    from: 2024-01-01
+    to: null
+    was: [L2:jevnaker:2020]

@@ -1,0 +1,10 @@
+divisions:
+
+  - id: L1:sogn-og-fjordane:1919
+    parent: NO
+    name: Sogn og Fjordane
+    division_name: fylke
+    from: 1919-01-01
+    to: 2019-12-31
+    was: [L1:nordre-bergenhus:1763]
+    became: [L1:vestland:2020]

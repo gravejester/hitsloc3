@@ -1,0 +1,9 @@
+divisions:
+
+  - id: L1:vestland:2020
+    parent: NO
+    name: Vestland
+    division_name: fylke
+    from: 2020-01-01
+    to: null
+    was: [L1:hordaland:1919, L1:sogn-og-fjordane:1919]

@@ -1,0 +1,11 @@
+divisions:
+
+  - id: L2:oppegard:1915
+    parent: L1:akershus:1662
+    name: Oppegård
+    alt_names: [Oppegard, Oppegaard]
+    division_name: kommune
+    from: 1915-07-01
+    to: 2019-12-31
+    was: [L2:nesodden:1838]
+    became: [L2:nordre-follo:2020]

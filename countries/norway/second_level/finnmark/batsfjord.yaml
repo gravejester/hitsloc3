@@ -1,0 +1,11 @@
+divisions:
+
+
+
+  - id: L2:batsfjord:1838
+    parent: L1:finnmark:1787
+    name: Båtsfjord
+    alt_names: [Batsfjord,Báhcavuotna]
+    division_name: kommune
+    from: 1838-01-01
+    to:

@@ -1,0 +1,28 @@
+divisions:
+
+  - id: L1:more-og-romsdal:1660
+    parent: NO
+    name: Romsdalen amt
+    division_name: amt
+    from: 1660-01-01
+    to: 1918-12-31
+    became: [L1:more-og-romsdal:1919]
+
+  - id: L1:more-og-romsdal:1919
+    parent: NO
+    name: Møre
+    alt_names: [More]
+    division_name: fylke
+    from: 1919-01-01
+    to: 1935-12-31
+    was: [L1:more-og-romsdal:1660]
+    became: [L1:more-og-romsdal:1936]
+
+  - id: L1:more-og-romsdal:1936
+    parent: NO
+    name: Møre og Romsdal
+    alt_names: [More og Romsdal]
+    division_name: fylke
+    from: 1936-01-01
+    to: null
+    was: [L1:more-og-romsdal:1919]

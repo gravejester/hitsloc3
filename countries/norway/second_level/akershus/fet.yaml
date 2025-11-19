@@ -1,0 +1,9 @@
+divisions:
+
+  - id: L2:fet:1838
+    parent: L1:akershus:1662
+    name: Fet
+    division_name: kommune
+    from: 1838-01-01
+    to: 2019-12-31
+    became: [L2:raelingen:1929,L2:lillestrom:2020]

@@ -1,0 +1,30 @@
+divisions:
+
+  - id: L2:lillestrom:1908
+    parent: L1:akershus:1662
+    name: Lillestrøm
+    alt_names: [Lillestrom]
+    division_name: kommune
+    from: 1908-01-01
+    to: 1961-12-31
+    was: [L2:skedsmo:1838]
+    became: [L2:skedsmo:1962]
+
+  - id: L2:lillestrom:2020
+    parent: L1:viken:2020
+    name: Lillestrøm
+    alt_names: [Lillestrom]
+    division_name: kommune
+    from: 2020-01-01
+    to: 2023-12-31
+    was: [L2:skedsmo:1962,L2:fet:1838,L2:sorum:1838]
+    became: [L2:lillestrom:2024]
+
+  - id: L2:lillestrom:2024
+    parent: L1:akershus:2024
+    name: Lillestrøm
+    alt_names: [Lillestrom]
+    division_name: kommune
+    from: 2024-01-01
+    to: null
+    was: [L2:lillestrom:2020]

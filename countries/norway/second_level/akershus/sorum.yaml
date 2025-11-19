@@ -1,0 +1,11 @@
+divisions:
+
+  - id: L2:sorum:1838
+    parent: L1:akershus:1662
+    name: Sørum
+    alt_names: [Sorum]
+    division_name: kommune
+    from: 1838-01-01
+    to: 2019-12-31
+    was: [L2:blaker:1919]
+    became: [L2:lillestrom:2020]

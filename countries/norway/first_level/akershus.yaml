@@ -1,0 +1,27 @@
+divisions:
+
+  - id: L1:akershus:1662
+    parent: NO
+    name: Akershus
+    alt_names: [Akershuus,Aggershuus]
+    division_name: amt
+    from: 1662-01-01
+    to: 1918-12-31
+    became: [L1:oslo:1842,L1:akershus:1919,L1:buskerud:1685]
+
+  - id: L1:akershus:1919
+    parent: NO
+    name: Akershus
+    division_name: fylke
+    from: 1919-01-01
+    to: 2019-12-31
+    was: [L1:akershus:1662]
+    became: [L1:viken:2020]
+
+  - id: L1:akershus:2024
+    parent: NO
+    name: Akershus
+    division_name: fylke
+    from: 2024-01-01
+    to: null
+    was: [L1:viken:2020]

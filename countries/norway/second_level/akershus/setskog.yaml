@@ -1,0 +1,10 @@
+divisions:
+
+  - id: L2:setskog:1905
+    parent: L1:akershus:1662
+    name: Setskog
+    division_name: kommune
+    from: 1905-01-01
+    to: 1965-12-31
+    was: [L2:holand:1837]
+    became: [L2:aurskog-holand:1966]

@@ -1,0 +1,10 @@
+divisions:
+
+  - id: L1:troms-og-finnmark:2020
+    parent: NO
+    name: Troms og Finnmark
+    division_name: fylke
+    from: 2020-01-01
+    to: 2023-12-31
+    was: [L1:troms:1919, L1:finnmark:1919]
+    became: [L1:troms:2024, L1:finnmark:2024]

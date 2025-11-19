@@ -1,0 +1,20 @@
+divisions:
+
+  # HURUM KOMMUNE
+
+  - id: L2:hurum:1837
+    parent: L1:buskerud:1685
+    name: Hurum
+    division_name: kommune
+    from: 1837-01-01
+    to: 1918-12-31
+    became: [L2:hurum:1919]
+
+  - id: L2:hurum:1919
+    parent: L1:buskerud:1919
+    name: Hurum
+    division_name: kommune
+    from: 1919-01-01
+    to: 2019-12-31
+    was: [L2:hurum:1837]
+    became: [L2:asker:2020]

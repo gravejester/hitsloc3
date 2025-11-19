@@ -1,0 +1,12 @@
+tests:
+
+
+
+location: "Røyken, Buskerud, Norway"
+date: about 1808
+
+location: "Follestad, Røyken, Buskerud, Norway"
+date: 1865-12-31
+
+location: "Follestad, Røyken, Buskerud, Norway"
+date: 1875-12-31

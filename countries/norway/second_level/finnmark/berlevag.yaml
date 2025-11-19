@@ -1,0 +1,30 @@
+divisions:
+
+  - id: L2:berlevag:1914
+    parent: L1:finnmark:1787
+    name: Berlegåg
+    alt_names: [Berlevag,Bearalváhki]
+    division_name: kommune
+    from: 1914-01-01
+    to: 2019-12-31
+    was: [L2:tana:1864]
+    became: [L2:berlevag:2020]
+
+  - id: L2:berlevag:2020
+    parent: L1:troms-og-finnmark:2020
+    name: Berlegåg
+    alt_names: [Berlevag,Bearalváhki]
+    division_name: kommune
+    from: 2020-01-01
+    to: 2023-12-31
+    was: [L2:berlevag:1914]
+    became: [L2:berlevag:2024]
+
+  - id: L2:berlevag:2024
+    parent: L1:finnmark:2024
+    name: Berlegåg
+    alt_names: [Berlevag,Bearalváhki]
+    division_name: kommune
+    from: 2024-01-01
+    to: null
+    was: [L2:berlevag:2020]

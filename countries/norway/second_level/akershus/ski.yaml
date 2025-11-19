@@ -1,0 +1,19 @@
+divisions:
+
+  - id: L2:ski:1931
+    parent: L1:akershus:1919
+    name: Ski
+    division_name: kommune
+    from: 1931-07-01
+    to: 1963-12-31
+    was: [L2:krakstad:1838]
+    became: [L2:ski:1964]
+
+  - id: L2:ski:1964
+    parent: L1:akershus:1919
+    name: Ski
+    division_name: kommune
+    from: 1964-01-01
+    to: 2019-12-31
+    was: [L2:ski:1931,L2:krakstad:1931]
+    became: [L2:nordre-follo:2020]

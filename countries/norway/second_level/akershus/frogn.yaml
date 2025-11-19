@@ -1,0 +1,36 @@
+divisions:
+
+  - id: L2:frogn:1838
+    parent: L1:akershus:1662
+    name: Fron
+    alt_names: [Frogn]
+    division_name: kommune
+    from: 1838-01-01
+    to: 1888-12-31
+    became: [L2:frogn:1889]
+
+  - id: L2:frogn:1889
+    parent: L1:akershus:1662
+    name: Frogn
+    division_name: kommune
+    from: 1889-01-01
+    to: 2019-12-31
+    was: [L2:frogn:1838]
+    became: [L2:frogn:2020]
+
+  - id: L2:frogn:2020
+    parent: L1:viken:2020
+    name: Frogn
+    division_name: kommune
+    from: 2020-01-01
+    to: 2023-12-31
+    was: [L2:frogn:1889]
+    became: [L2:frogn:2024]
+
+  - id: L2:frogn:2024
+    parent: L1:akershus:2024
+    name: Frogn
+    division_name: kommune
+    from: 2024-01-01
+    to: null
+    was: [L2:frogn:2020]

@@ -1,0 +1,40 @@
+divisions:
+
+  - id: L2:tana:1864
+    parent: L1:finnmark:1787
+    name: Tana
+    alt_names: [Deatnu]
+    division_name: kommune
+    from: 1864-01-01
+    to: 1913-12-31
+    was: [L2:lebesby:1838]
+    became: [L2:tana:1914,L2:berlevag:1914,L2:gamvik:1914]
+
+  - id: L2:tana:1914
+    parent: L1:finnmark:1787
+    name: Tana
+    alt_names: [Deatnu]
+    division_name: kommune
+    from: 1914-01-01
+    to: 2019-12-31
+    was: [L2:tana:1864]
+    became: [L2:tana:2020]
+
+  - id: L2:tana:2020
+    parent: L1:troms-og-finnmark:2020
+    name: Tana
+    alt_names: [Deatnu]
+    division_name: kommune
+    from: 2020-01-01
+    to: 2023-12-31
+    was: [L2:tana:1914]
+    became: [L2:tana:2024]
+
+  - id: L2:tana:2024
+    parent: L1:finnmark:2024
+    name: Tana
+    alt_names: [Deatnu]
+    division_name: kommune
+    from: 2024-01-01
+    to: null
+    was: [L2:tana:2020]

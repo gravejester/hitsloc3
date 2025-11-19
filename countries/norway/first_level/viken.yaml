@@ -1,0 +1,10 @@
+divisions:
+
+  - id: L1:viken:2020
+    parent: NO
+    name: Viken
+    division_name: fylke
+    from: 2020-01-01
+    to: 2023-12-31
+    was: [L1:buskerud:1919, L1:akershus:1919, L1:ostfold:1919]
+    became: [L1:buskerud:2024, L1:akershus:2024, L1:ostfold:2024]

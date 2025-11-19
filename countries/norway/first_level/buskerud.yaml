@@ -1,0 +1,27 @@
+divisions:
+
+  - id: L1:buskerud:1685
+    parent: NO
+    name: Buskerud
+    division_name: amt
+    from: 1685-01-01
+    to: 1918-12-31
+    was: [L1:akershus:1662]
+    became: [L1:buskerud:1919]
+
+  - id: L1:buskerud:1919
+    parent: NO
+    name: Buskerud
+    division_name: fylke
+    from: 1919-01-01
+    to: 2019-12-31
+    was: [L1:buskerud:1685]
+    became: [L1:viken:2020]
+
+  - id: L1:buskerud:2024
+    parent: NO
+    name: Buskerud
+    division_name: fylke
+    from: 2024-01-01
+    to: null
+    was: [L1:viken:2020]

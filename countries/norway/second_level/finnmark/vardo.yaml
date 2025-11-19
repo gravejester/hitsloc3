@@ -1,0 +1,20 @@
+divisions:
+
+  - id: L2:vardo:1838
+    parent: L1:finnmark:1787
+    name: Vardø
+    alt_names: [Vardo,Várggát]
+    division_name: formannskapsdistrikt
+    from: 1838-01-01
+    to: 1868-12-31
+    became: [L2:vardo:1869]
+
+  - id: L2:vardo:1869
+    parent: L1:finnmark:1787
+    name: Vardø
+    alt_names: [Vardo,Várggát]
+    division_name: landdistrikt
+    from: 1869-01-01
+    to: 1956-12-31
+    was: [L2:vardo:1838]
+    became: []

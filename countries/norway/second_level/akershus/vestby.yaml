@@ -1,0 +1,27 @@
+divisions:
+
+  - id: L2:vestby:1838
+    parent: L1:akershus:1662
+    name: Vestby
+    division_name: kommune
+    from: 1838-01-01
+    to: 2019-12-31
+    was: [L2:holen:1847,L2:son:1847]
+    became: [L2:vestby:2020]
+
+  - id: L2:vestby:2020
+    parent: L1:viken:2020
+    name: Vestby
+    division_name: kommune
+    from: 2020-01-01
+    to: 2023-12-31
+    was: [L2:vestby:1838]
+    became: [L2:vestby:2024]
+
+  - id: L2:vestby:2024
+    parent: L1:akershus:2024
+    name: Vestby
+    division_name: kommune
+    from: 2024-01-01
+    to: null
+    was: [L2:vestby:2020]

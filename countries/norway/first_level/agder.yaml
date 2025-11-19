@@ -1,0 +1,44 @@
+divisions:
+
+  - id: L1:nedenes:1662
+    parent: NO
+    name: Nedenæs amt
+    alt_names: [Nedenas,Nedenaes,Nedenes]
+    division_name: amt
+    from: 1662-01-01
+    to: 1918-12-31
+    became: [L1:aust-agder:1919]
+
+  - id: L1:lister-og-mandal:1662
+    parent: NO
+    name: Lister og Mandal amt
+    division_name: amt
+    from: 1662-01-01
+    to: 1918-12-31
+    became: [L1:vest-agder:1919]
+
+  - id: L1:vest-agder:1919
+    parent: NO
+    name: Vest-Agder
+    division_name: fylke
+    from: 1919-01-01
+    to: 2019-12-31
+    was: [L1:lister-og-mandal:1662]
+    became: [L1:agder:2020]
+
+  - id: L1:aust-agder:1919
+    parent: NO
+    name: Aust-Agder
+    division_name: fylke
+    from: 1919-01-01
+    to: 2019-12-31
+    was: [L1:nedenes:1662]
+    became: [L1:agder:2020]
+
+  - id: L1:agder:2020
+    parent: NO
+    name: Agder
+    division_name: fylke
+    from: 2020-01-01
+    to: null
+    was: [L1:vest-agder:1919,L1:aust-agder:1919]

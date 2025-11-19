@@ -1,0 +1,37 @@
+divisions:
+
+  - id: L1:bergenhus:1662
+    parent: NO
+    name: Bergenhus amt
+    division_name: amt
+    from: 1662-02-19
+    to: 1762-12-31
+    became: [L1:nordre-bergenhus:1763,L1:sondre-bergenhus:1763]
+
+  - id: L1:nordre-bergenhus:1763
+    parent: NO
+    name: Nordre Bergenhus amt
+    division_name: amt
+    from: 1763-01-01
+    to: 1918-12-31
+    was: [L1:bergenhus:1662]
+    became: [L1:sogn-og-fjordane:1919]
+
+  - id: L1:sondre-bergenhus:1763
+    parent: NO
+    name: Søndre Bergenhus amt
+    alt_names: [Sondre Bergenhus]
+    division_name: amt
+    from: 1763-01-01
+    to: 1918-12-31
+    was: [L1:bergenhus:1662]
+    became: [L1:hordaland:1919]
+
+  - id: L1:hordaland:1919
+    parent: NO
+    name: Hordland
+    division_name: fylke
+    from: 1919-01-01
+    to: 2019-12-31
+    was: [L1:sondre-bergenhus:1763]
+    became: [L1:vestland:2020]

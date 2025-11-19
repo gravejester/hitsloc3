@@ -1,0 +1,37 @@
+divisions:
+
+  - id: L1:oppland:1757
+    parent: NO
+    name: Opplandenes amt
+    division_name: amt
+    from: 1757-01-01
+    to: 1781-04-10
+    became: [L1:oppland:1781, L1:hedmark:1781]
+
+  - id: L1:oppland:1781
+    parent: NO
+    name: Christians amt
+    division_name: amt
+    from: 1781-04-11
+    to: 1876-12-31
+    was: [L1:oppland:1757]
+    became: [L1:oppland:1877]
+
+  - id: L1:oppland:1877
+    parent: NO
+    name: Kristians amt
+    division_name: amt
+    from: 1877-01-01
+    to: 1918-12-31
+    was: [L1:oppland:1781]
+    became: [L1:oppland:1919]
+
+  - id: L1:oppland:1919
+    parent: NO
+    name: Oppland
+    alt_names: [Opland]
+    division_name: fylke
+    from: 1919-01-01
+    to: 2019-12-31
+    was: [L1:oppland:1877]
+    became: [L1:innlandet:2020]

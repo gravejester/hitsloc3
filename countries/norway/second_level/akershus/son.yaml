@@ -1,0 +1,11 @@
+divisions:
+
+  - id: L2:son:1847
+    parent: L1:akershus:1662
+    name: Son
+    alt_names: [Soon]
+    division_name: kommune
+    from: 1847-01-01
+    to: 1963-12-31
+    became: [L2:vestby:1838]
+

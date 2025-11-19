@@ -1,0 +1,28 @@
+divisions:
+
+  - id: L1:ostfold:1662
+    parent: NO
+    name: Smaalenenes amt
+    division_name: amt
+    from: 1662-01-01
+    to: 1918-12-31
+    became: [L1:ostfold:1919]
+
+  - id: L1:ostfold:1919
+    parent: NO
+    name: Østfold
+    division_name: fylke
+    alt_names: [Ostfold]
+    from: 1919-01-01
+    to: 2019-12-31
+    was: [L1:ostfold:1662]
+    became: [L1:viken:2020]
+
+  - id: L1:ostfold:2024
+    parent: NO
+    name: Østfold
+    division_name: fylke
+    alt_names: [Ostfold]
+    from: 2024-01-01
+    to: null
+    was: [L1:viken:2020]

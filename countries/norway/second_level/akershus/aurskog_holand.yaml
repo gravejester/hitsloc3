@@ -1,0 +1,76 @@
+divisions:
+
+  - id: L2:holand:1837
+    parent: L1:akershus:1662
+    name: Høland
+    alt_names: [Holand]
+    from: 1837-01-01
+    to: 1924-06-30
+    became: [L2:nordre-holand:1924,L2:sondre-holand:1924,L2:setskog:1905]
+
+  - id: L2:aurskog:1838
+    parent: L1:akershus:1662
+    name: Urskog
+    alt_names: [Aurskog]
+    division_name: kommune
+    from: 1838-01-01
+    to: 1917-12-31
+    became: [L2:aurskog:1918]
+
+  - id: L2:aurskog:1918
+    parent: L1:akershus:1662
+    name: Aurskog
+    division_name: kommune
+    from: 1918-01-01
+    to: 1965-12-31
+    was: [L2:aurskog:1838]
+    became: [L2:aurskog-holand:1966]
+
+  - id: L2:nordre-holand:1924
+    parent: L1:akershus:1919
+    name: Nordre Høland
+    alt_names: [Nordre Holand]
+    division_name: kommune
+    from: 1924-07-01
+    to: 1965-12-31
+    was: [L2:holand:1837]
+    became: [L2:aurskog-holand:1966]
+
+  - id: L2:sondre-holand:1924
+    parent: L1:akershus:1919
+    name: Søndre Høland
+    alt_names: [Sondre Holand]
+    division_name: kommune
+    from: 1924-07-01
+    to: 1965-12-31
+    was: [L2:holand:1837]
+    became: [L2:aurskog-holand:1966]
+
+  - id: L2:aurskog-holand:1966
+    parent: L1:akershus:1919
+    name: Aurskog-Høland
+    alt_names: [Aurskog-Holand]
+    division_name: kommune
+    from: 1966-01-01
+    to: 2019-12-31
+    was: [L2:aurskog:1918,L2:nordre-holand:1924,L2:sondre-holand:1924,L2:setskog:1905]
+    became: [L2:aurskog-holand:2020]
+
+  - id: L2:aurskog-holand:2020
+    parent: L1:viken:2020
+    name: Aurskog-Høland
+    alt_names: [Aurskog-Holand]
+    division_name: kommune
+    from: 2020-01-01
+    to: 2023-12-31
+    was: [L2:aurskog-holand:1966]
+    became: [L2:aurskog-holand:2024]
+
+  - id: L2:aurskog-holand:2024
+    parent: L1:akershus:2024
+    name: Aurskog-Høland
+    alt_names: [Aurskog-Holand]
+    division_name: kommune
+    from: 2024-01-01
+    to: null
+    was: [L2:aurskog-holand:2020]

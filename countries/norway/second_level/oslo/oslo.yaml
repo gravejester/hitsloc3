@@ -1,0 +1,49 @@
+divisions:
+
+  - id: L2:oslo:1838
+    parent: L1:akershus:1662
+    name: Christiania
+    alt_names: [Oslo,Kristiania]
+    division_name: kommune
+    from: 1838-01-01
+    to: 1841-12-31
+    became: [L2:oslo:1842]
+
+  - id: L2:oslo:1842
+    parent: L1:oslo:1842
+    name: Christiania
+    alt_names: [Oslo,Kristiania]
+    division_name: kommune
+    from: 1842-01-01
+    to: 1896-12-31
+    was: [L2:oslo:1838]
+    became: [L2:oslo:1897]
+
+  - id: L2:oslo:1897
+    parent: L1:oslo:1842
+    name: Kristiania
+    alt_names: [Christiania, Oslo]
+    division_name: kommune
+    from: 1897-01-01
+    to: 1924-12-31
+    was: [L2:oslo:1842]
+    became: [L2:oslo:1925]
+
+  - id: L2:oslo:1925
+    parent: L1:oslo:1842
+    name: Oslo
+    alt_names: [Christiania,Kristiania]
+    division_name: kommune
+    from: 1925-01-01
+    to: 1947-12-31
+    was: [L2:oslo:1897]
+    became: [L2:oslo:1948]
+
+  - id: L2:oslo:1948
+    parent: L1:oslo:1842
+    name: Oslo
+    alt_names: [Christiania,Kristiania]
+    division_name: kommune
+    from: 1948-01-01
+    to: null
+    was: [L2:oslo:1925,L2:vestre-aker:1861,L2:ostre-aker:1861]

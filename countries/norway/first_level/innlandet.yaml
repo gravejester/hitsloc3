@@ -1,0 +1,9 @@
+divisions:
+
+  - id: L1:innlandet:2020
+    parent: NO
+    name: Innlandet
+    division_name: fylke
+    from: 2020-01-01
+    to: null
+    was: [L1:hedmark:1919, L1:oppland:1919]

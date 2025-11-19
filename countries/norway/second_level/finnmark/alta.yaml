@@ -1,0 +1,54 @@
+divisions:
+
+  - id: L2:alta:1838
+    parent: L1:finnmark:1787
+    name: Alta-Talvik
+    alt_names: [Alten-Talvig]
+    division_name: kommune
+    from: 1838-01-01
+    to: 1862-12-31
+    became: [L2:talvik:1863,L2:alta:1863]
+
+  - id: L2:talvik:1863
+    parent: L1:finnmark:1787
+    name: Talvik
+    alt_names: [Talvig]
+    division_name: kommune
+    from: 1863-01-01
+    to: 1963-12-31
+    was: [L2:alta:1838]
+    became: [L2:alta:1964]
+
+  - id: L2:alta:1863
+    parent: L1:finnmark:1787
+    name: Alta
+    division_name: kommune
+    from: 1863-01-01
+    to: 1963-12-31
+    was: [L2:alta:1838]
+    became: [L2:alta:1964]
+
+  - id: L2:alta:1964
+    parent: L1:finnmark:1919
+    name: Alta
+    division_name: kommune
+    from: 1964-01-01
+    to: 2019-12-31
+    was: [L2:talvik:1863,L2:alta:1863]
+    became: [L2:alta:2020]
+
+  - id: L2:alta:2020
+    parent: L1:troms-og-finnmark:2020
+    name: Alta
+    division_name: kommune
+    from: 2020-01-01
+    to: 2023-12-31
+    was: [L2:alta:1964]
+    became: [L2:alta:2024]
+
+  - id: L2:alta:2024
+    parent: L1:finnmark:2024
+    name: Alta
+    from: 2024-01-01
+    to: null
+    was: [L2:alta:2020]

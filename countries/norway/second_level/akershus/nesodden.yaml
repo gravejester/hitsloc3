@@ -1,0 +1,27 @@
+divisions:
+
+  - id: L2:nesodden:1838
+    parent: L1:akershus:1662
+    name: Nesodden
+    alt_names: [Næsodden]
+    division_name: kommune
+    from: 1838-01-01
+    to: 2019-12-31
+    became: [L2:oppegard:1915,L2:nesodden:2020]
+
+  - id: L2:nesodden:2020
+    parent: L1:viken:2020
+    name: Nesodden
+    division_name: kommune
+    from: 2020-01-01
+    to: 2023-12-31
+    was: [L2:nesodden:1838]
+    became: [L2:nesodden:2024]
+
+  - id: L2:nesodden:2024
+    parent: L1:akershus:2024
+    name: Nesodden
+    division_name: kommune
+    from: 2024-01-01
+    to: null
+    was: [L2:nesodden:2020]

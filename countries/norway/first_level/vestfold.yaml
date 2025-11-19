@@ -1,0 +1,78 @@
+divisions:
+
+  # Jarlsberg
+
+  - id: L1:jarlsberg:1673
+    parent: NO
+    name: Griffenfeld grevskap
+    division_name: grevskap
+    from: 1673-01-01
+    to: 1675-12-31
+    became: [L1:jarlsberg:1676]
+
+  - id: L1:jarlsberg:1676
+    parent: NO
+    name: Tønsberg grevskap
+    alt_names: [Tonsberg grevskap]
+    division_name: grevskap
+    from: 1676-01-01
+    to: 1683-12-31
+    was: [L1:jarlsberg:1673]
+    became: [L1:jarlsberg:1684]
+
+  - id: L1:jarlsberg:1684
+    parent: NO
+    name: Jarlsberg grevskap
+    division_name: grevskap
+    from: 1684-01-01
+    to: 1820-12-31
+    was: [L1:jarlsberg:1676]
+    became: [L1:vestfold:1821]
+
+  # Larvik
+
+  - id: L1:larvik:1662
+    parent: NO
+    name: Brunlaug amt
+    division_name: amt
+    from: 1662-01-01
+    to: 1671-09-28
+    became: [L1:larvik:1671]
+
+  - id: L1:larvik:1671
+    parent: NO
+    name: Larvik Grevskap
+    alt_names: [Laurvik, Laurvig]
+    division_name: grevskap
+    from: 1671-09-29
+    to: 1820-12-31
+    was: [L1:larvik:1662]
+    became: [L1:vestfold:1821]
+
+  # Vestfold
+
+  - id: L1:vestfold:1821
+    parent: NO
+    name: Jarlsberg og Larvik amt
+    division_name: amt
+    from: 1821-01-01
+    to: 1918-12-31
+    was: [L1:jarlsberg:1684, L1:larvik:1671]
+    became: [L1:vestfold:1919]
+
+  - id: L1:vestfold:1919
+    parent: NO
+    name: Vestfold
+    division_name: fylke
+    from: 1919-01-01
+    to: 2019-12-31
+    was: [L1:vestfold:1821]
+    became: [L1:vestfold-og-telemark:2020]
+
+  - id: L1:vestfold:2024
+    parent: NO
+    name: Vestfold
+    division_name: fylke
+    from: 2024-01-01
+    to: null
+    was: [L1:vestfold-og-telemark:2020]

@@ -1,0 +1,18 @@
+divisions:
+
+  - id: L2:nordre-follo:2020
+    parent: L1:viken:2020
+    name: Nordre Follo
+    division_name: kommune
+    from: 2020-01-01
+    to: 2023-12-31
+    was: [L2:ski:1964,L2:oppegard:1915]
+    became: [L2:nordre-follo:2024]
+
+  - id: L2:nordre-follo:2024
+    parent: L1:akershus:2024
+    name: Nordre Follo
+    division_name: kommune
+    from: 2024-01-01
+    to: null
+    was: [L2:nordre-follo:2020]

@@ -1,0 +1,10 @@
+divisions:
+
+  - id: L2:holen:1847
+    parent: L1:akershus:1662
+    name: Hølen
+    alt_names: [Holen]
+    division_name: kommune
+    from: 1847-01-01
+    to: 1943-06-30
+    became: [L2:vestby:1838]

@@ -1,0 +1,30 @@
+divisions:
+
+  - id: L1:troms:1866
+    parent: NO
+    name: Tromsø amt
+    alt_names: [Tromso amt]
+    division_name: amt
+    from: 1866-10-01
+    to: 1918-12-31
+    was: [L1:finnmark:1787]
+    became: [L1:troms:1919]
+
+  - id: L1:troms:1919
+    parent: NO
+    name: Troms
+    alt_names: [Romsa]
+    division_name: fylke
+    from: 1919-01-01
+    to: 2019-12-31
+    was: [L1:troms:1866]
+    became: [L1:troms-og-finnmark:2020]
+
+  - id: L1:troms:2024
+    parent: NO
+    name: Troms
+    alt_names: [Romsa]
+    division_name: fylke
+    from: 2024-01-01
+    to: null
+    was: [L1:troms-og-finnmark:2020]

@@ -1,0 +1,20 @@
+divisions:
+
+  - id: L2:krakstad:1838
+    parent: L1:akershus:1662
+    name: Kråkstad
+    alt_names: [Krakstad]
+    division_name: kommune
+    from: 1838-01-01
+    to: 1931-06-30
+    became: [L2:krakstad:1931,L2:ski:1931]
+
+  - id: L2:krakstad:1931
+    parent: L1:akershus:1919
+    name: Kråkstad
+    alt_names: [Krakstad]
+    division_name: kommune
+    from: 1931-07-01
+    to: 1963-12-31
+    was: [L2:krakstad:1838]
+    became: [L2:ski:1964]

@@ -1,0 +1,26 @@
+divisions:
+
+  - id: L1:telemark:1662
+    parent: NO
+    name: Bratsberg amt
+    division_name: amt
+    from: 1662-01-01
+    to: 1918-12-31
+    became: [L1:telemark:1919]
+
+  - id: L1:telemark:1919
+    parent: NO
+    name: Telemark
+    division_name: fylke
+    from: 1919-01-01
+    to: 2019-12-31
+    was: [L1:telemark:1662]
+    became: [L1:vestfold-og-telemark:2020]
+
+  - id: L1:telemark:2024
+    parent: NO
+    name: Telemark
+    division_name: fylke
+    from: 2024-01-01
+    to: null
+    was: [L1:vestfold-og-telemark:2020]

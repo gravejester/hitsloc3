@@ -1,0 +1,37 @@
+divisions:
+
+  # ASKER KOMMUNE
+
+  - id: L2:asker:1837
+    parent: L1:akershus:1662
+    name: Asker
+    division_name: kommune
+    from: 1837-01-01
+    to: 1918-12-31
+    became: [L2:asker:1919]
+
+  - id: L2:asker:1919
+    parent: L1:akershus:1919
+    name: Asker
+    division_name: kommune
+    from: 1919-01-01
+    to: 2019-12-31
+    was: [L2:asker:1837]
+    became: [L2:asker:2020]
+
+  - id: L2:asker:2020
+    parent: L1:viken:2020
+    name: Asker
+    division_name: kommune
+    from: 2020-01-01
+    to: 2023-12-31
+    was: [L2:asker:1919, L2:hurum:1919, L2:royken:1919]
+    became: [L2:asker:2024]
+
+  - id: L2:asker:2024
+    parent: L1:akershus:2024
+    name: Asker
+    division_name: kommune
+    from: 2024-01-01
+    to: null
+    was: [L2:asker:2020]

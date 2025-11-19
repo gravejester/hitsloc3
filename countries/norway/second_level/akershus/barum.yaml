@@ -1,0 +1,9 @@
+divisions:
+
+  - id: L2:barum:1838
+    parent: L1:akershus:1662
+    name: Bærum
+    alt_names: [Barum,Baerum]
+    division_name: kommune
+    from: 1838-01-01
+    to: null

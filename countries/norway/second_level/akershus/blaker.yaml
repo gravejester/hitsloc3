@@ -1,0 +1,10 @@
+divisions:
+
+  - id: L2:blaker:1919
+    parent: L1:akershus:1919
+    name: Blaker
+    division_name: kommune
+    from: 1919-01-01
+    to: 1961-12-31
+    was: []
+    became: [L2:sorum:1838]

@@ -1,0 +1,10 @@
+divisions:
+
+  - id: L1:vestfold-og-telemark:2020
+    parent: NO
+    name: Vestfold og Telemark
+    division_name: fylke
+    from: 2020-01-01
+    to: 2023-12-31
+    was: [L1:vestfold:1919, L1:telemark:1919]
+    became: [L1:vestfold:2024, L1:telemark:2024]

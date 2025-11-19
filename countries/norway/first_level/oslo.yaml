@@ -1,0 +1,9 @@
+divisions:
+
+  - id: L1:oslo:1842
+    parent: NO
+    name: Oslo
+    division_name: fylke
+    from: 1842-01-01
+    to: null
+    was: [L1:akershus:1662]

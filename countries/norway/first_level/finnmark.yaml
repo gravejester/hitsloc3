@@ -1,0 +1,48 @@
+divisions:
+
+  - id: L1:finnmark:1576
+    parent: NO
+    name: Vardøhus
+    alt_names: [Vardohus]
+    division_name: len
+    from: 1576-01-01
+    to: 1659-12-31
+    became: [L1:finnmark:1660]
+
+  - id: L1:finnmark:1660
+    parent: NO
+    name: Vardøhus amt
+    alt_names: [Vardohus]
+    division_name: amt
+    from: 1660-01-01
+    to: 1786-12-31
+    was: [L1:finnmark:1576]
+    became: [L1:finnmark:1787]
+
+  - id: L1:finnmark:1787
+    parent: NO
+    name: Finmarkens amt
+    division_name: amt
+    from: 1787-01-01
+    to: 1918-12-31
+    was: [L1:finnmark:1660]
+    became: [L1:finnmark:1919,L1:troms:1866]
+
+  - id: L1:finnmark:1919
+    parent: NO
+    name: Finnmark
+    alt_names: [Finnmárku, Finnmarku]
+    division_name: fylke
+    from: 1919-01-01
+    to: 2019-12-31
+    was: [L1:finnmark:1787]
+    became: [L1:troms-og-finnmark:2020]
+
+  - id: L1:finnmark:2024
+    parent: NO
+    name: Finnmark
+    alt_names: [Finnmárku, Finnmarku]
+    division_name: fylke
+    from: 2024-01-01
+    to: null
+    was: [L1:troms-og-finnmark:2020]

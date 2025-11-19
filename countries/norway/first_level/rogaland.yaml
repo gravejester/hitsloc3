@@ -1,0 +1,17 @@
+divisions:
+
+  - id: L1:rogaland:1662
+    parent: NO
+    name: Stavanger amt
+    division_name: amt
+    from: 1662-01-01
+    to: 1918-12-31
+    became: [L1:rogaland:1919]
+
+  - id: L1:rogaland:1919
+    parent: NO
+    name: Rogaland
+    division_name: fylke
+    from: 1919-01-01
+    to: null
+    was: [L1:rogaland:1662]

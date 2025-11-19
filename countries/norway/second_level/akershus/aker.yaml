@@ -1,0 +1,28 @@
+divisions:
+
+  - id: L2:aker:1838
+    parent: L1:akershus:1662
+    name: Aker
+    division_name: kommune
+    from: 1838-01-01
+    to: 1860-12-31
+    became: [L2:ostre-aker:1861,L2:vestre-aker:1861]
+
+  - id: L2:ostre-aker:1861
+    parent: L1:akershus:1662
+    name: Østre Aker
+    alt_names: [Ostre Aker]
+    division_name: kommune
+    from: 1861-01-01
+    to: 1947-12-31
+    was: [L2:aker:1838]
+    became: [L2:oslo:1948]
+
+  - id: L2:vestre-aker:1861
+    parent: L1:akershus:1662
+    name: Vestre Aker
+    division_name: kommune
+    from: 1861-01-01
+    to: 1947-12-31
+    was: [L2:aker:1838]
+    became: [L2:oslo:1948]
