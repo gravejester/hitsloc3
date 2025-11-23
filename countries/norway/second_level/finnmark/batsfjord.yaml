@@ -1,6 +1,6 @@
 divisions:
 
-  - id: L2:vardo:1869
+  - id: L2:vardo_land:1869
     parent: L1:finnmark:1787
     name: Vardø
     alt_names: [Vardo,Várggát]
@@ -17,7 +17,7 @@ divisions:
     division_name: kommune
     from: 1956-08-24
     to: 2019-12-31
-    was: [L2:vardo:1869]
+    was: [L2:vardo_land:1869]
     became: [L2:batsfjord:2020]
 
   - id: L2:batsfjord:2020

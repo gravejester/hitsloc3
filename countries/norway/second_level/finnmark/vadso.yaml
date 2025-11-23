@@ -1,0 +1,69 @@
+divisions:
+
+  - id: L2:vadso:1838
+    parent: L1:finnmark:1787
+    name: Vadsø
+    alt_names: [Vadso,Čáhcesuolu]
+    division_name: kommune
+    from: 1838-01-01
+    to: 1857-12-31
+    became: [L2:vadso:1858,L2:nesseby:1839,L2:sor-varanger:1858]
+
+  - id: L2:vadso:1858
+    parent: L1:finnmark:1787
+    name: Vadsø
+    alt_names: [Vadso,Čáhcesuolu]
+    division_name: kommune
+    from: 1858-01-01
+    to: 1863-12-31
+    was: [L2:vadso:1838,L2:nesseby:1839]
+    became: [L2:nesseby:1864,L2:vadso:1864]
+
+  - id: L2:vadso:1864
+    parent: L1:finnmark:1787
+    name: Vadsø
+    alt_names: [Vadso,Čáhcesuolu]
+    division_name: kommune
+    from: 1864-01-01
+    to: 1893-12-31
+    was: [L2:vadso:1858]
+    became: [L2:nord-varanger:1894,L2:vadso:1894]
+
+  - id: L2:vadso:1894
+    parent: L1:finnmark:1787
+    name: Vadsø
+    alt_names: [Vadso,Čáhcesuolu]
+    division_name: kommune
+    from: 1894-01-01
+    to: 1963-12-31
+    was: [L2:vadso:1864]
+    became: [L2:vadso:1964]
+
+  - id: L2:vadso:1964
+    parent: L1:finnmark:1919
+    name: Vadsø
+    alt_names: [Vadso,Čáhcesuolu]
+    division_name: kommune
+    from: 1964-01-01
+    to: 2019-12-31
+    was: [L2:vadso:1894,L2:nord-varanger:1894]
+    became: [L2:vadso:2020]
+
+  - id: L2:vadso:2020
+    parent: L1:troms-og-finnmark:2020
+    name: Vadsø
+    alt_names: [Vadso,Čáhcesuolu]
+    division_name: kommune
+    from: 2020-01-01
+    to: 2023-12-31
+    was: [L2:vadso:1964]
+    became: [L2:vadso:2024]
+
+  - id: L2:vadso:2024
+    parent: L1:finnmark:2024
+    name: Vadsø
+    alt_names: [Vadso,Čáhcesuolu]
+    division_name: kommune
+    from: 2024-01-01
+    to: null
+    was: [L2:vadso:2020]

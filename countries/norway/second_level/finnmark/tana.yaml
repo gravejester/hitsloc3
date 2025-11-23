@@ -16,8 +16,18 @@ divisions:
     alt_names: [Deatnu]
     division_name: kommune
     from: 1914-01-01
-    to: 2019-12-31
+    to: 1963-12-31
     was: [L2:tana:1864]
+    became: [L2:tana:1964]
+
+  - id: L2:tana:1964
+    parent: L1:finnmark:1787
+    name: Tana
+    alt_names: [Deatnu]
+    division_name: kommune
+    from: 1964-01-01
+    to: 2019-12-31
+    was: [L2:tana:1914,L2:polmak:1903]
     became: [L2:tana:2020]
 
   - id: L2:tana:2020
@@ -27,7 +37,7 @@ divisions:
     division_name: kommune
     from: 2020-01-01
     to: 2023-12-31
-    was: [L2:tana:1914]
+    was: [L2:tana:1964]
     became: [L2:tana:2024]
 
   - id: L2:tana:2024

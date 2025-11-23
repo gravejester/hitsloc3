@@ -1,0 +1,39 @@
+divisions:
+
+  - id: L2:loppa:1838
+    parent: L1:finnmark:1787
+    name: Loppa
+    alt_names: [Loppen,Láhppi]
+    division_name: kommune
+    from: 1838-01-01
+    to: 1857-12-31
+    became: [L2:hasvik:1858,L2:loppa:1858]
+
+  - id: L2:loppa:1858
+    parent: L1:finnmark:1787
+    name: Loppa
+    alt_names: [Loppen,Láhppi]
+    division_name: kommune
+    from: 1858-01-01
+    to: 2019-12-31
+    was: [L2:loppa:1838]
+    became: [L2:loppa:2020]
+
+  - id: L2:loppa:2020
+    parent: L1:troms-og-finnmark:2020
+    name: Loppa
+    alt_names: [Loppen,Láhppi]
+    division_name: kommune
+    from: 2020-01-01
+    to: 2023-12-31
+    was: [L2:loppa:1858]
+    became: [L2:loppa:2024]
+
+  - id: L2:loppa:2024
+    parent: L1:finnmark:2024
+    name: Loppa
+    alt_names: [Loppen,Láhppi]
+    division_name: kommune
+    from: 2024-01-01
+    to: null
+    was: [L2:loppa:2020]

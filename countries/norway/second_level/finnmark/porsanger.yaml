@@ -1,0 +1,69 @@
+divisions:
+
+  - id: L2:kistrand:1838
+    parent: L1:finnmark:1787
+    name: Kistrand
+    alt_names: [Porsanger,Porsáŋgu]
+    division_name: kommune
+    from: 1838-01-01
+    to: 1850-12-31
+    became: [L2:kistrand:1851,L2:kautokeino:1851]
+
+  - id: L2:kistrand:1851
+    parent: L1:finnmark:1787
+    name: Kistrand
+    alt_names: [Porsanger,Porsáŋgu]
+    division_name: kommune
+    from: 1851-01-01
+    to: 1860-12-31
+    was: [L2:kistrand:1838]
+    became: [L2:kistrand:1861,L2:kjelvik:1861]
+
+  - id: L2:kistrand:1861
+    parent: L1:finnmark:1787
+    name: Kistrand
+    alt_names: [Porsanger,Porsáŋgu]
+    division_name: kommune
+    from: 1861-01-01
+    to: 1865-12-31
+    was: [L2:kistrand:1851]
+    became: [L2:kistrand:1866,L2:karasjok:1866]
+
+  - id: L2:kistrand:1866
+    parent: L1:finnmark:1787
+    name: Kistrand
+    alt_names: [Porsanger,Porsáŋgu]
+    division_name: kommune
+    from: 1866-01-01
+    to: 1963-12-31
+    was: [L2:kistrand:1861]
+    became: [L2:porsanger:1964]
+
+  - id: L2:porsanger:1964
+    parent: L1:finnmark:1919
+    name: Porsanger
+    alt_names: [Porsáŋgu]
+    division_name: kommune
+    from: 1964-01-01
+    to: 2019-12-31
+    was: [L2:kistrand:1866]
+    became: [L2:porsanger:2020]
+
+  - id: L2:porsanger:2020
+    parent: L1:troms-og-finnmark:2020
+    name: Porsanger
+    alt_names: [Porsáŋgu]
+    division_name: kommune
+    from: 2020-01-01
+    to: 2023-12-31
+    was: [L2:porsanger:1964]
+    became: [L2:porsanger:2024]
+
+  - id: L2:porsanger:2024
+    parent: L1:finnmark:2024
+    name: Porsanger
+    alt_names: [Porsáŋgu]
+    division_name: kommune
+    from: 2024-01-01
+    to: null
+    was: [L2:porsanger:2020]

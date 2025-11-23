@@ -1,0 +1,11 @@
+divisions:
+
+  - id: L2:polmak:1903
+    parent: L1:finnmark:1787
+    name: Polmak
+    alt_names: [Buolbmát ]
+    division_name: kommune
+    from: 1903-01-01
+    to: 1963-12-31
+    was: [L2:nesseby:1864]
+    became: [L2:tana:1964]

@@ -7,5 +7,5 @@ divisions:
     division_name: kommune
     from: 1869-01-01
     to: 2019-12-31
-    was: [L2:hammerfest:1852]
+    was: [L2:hammerfest_land:1852]
     became: [L2:hammerfest:2020]

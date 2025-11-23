@@ -7,9 +7,9 @@ divisions:
     division_name: by og landdistrikt
     from: 1838-01-01
     to: 1991-12-31
-    became: [L2:masoy:1839,L2:hammerfest:1852,L2:hammerfest:1992]
+    became: [L2:masoy:1839,L2:hammerfest_land:1852,L2:hammerfest:1992]
 
-  - id: L2:hammerfest:1852
+  - id: L2:hammerfest_land:1852
     parent: L1:finnmark:1787
     name: Hammerfest
     division_name: landdistrikt
@@ -25,7 +25,7 @@ divisions:
     division_name: kommune
     from: 1992-01-01
     to: 2019-12-31
-    was: [L2:soroysund:1919]
+    was: [L2:soroysund:1919,L2:hammerfest:1838]
     became: [L2:hammerfest:2020]
 
   - id: L2:hammerfest:2020

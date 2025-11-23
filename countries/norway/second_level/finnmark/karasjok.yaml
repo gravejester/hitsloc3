@@ -1,0 +1,30 @@
+divisions:
+
+  - id: L2:karasjok:1866
+    parent: L1:finnmark:1787
+    name: Karasjok
+    alt_names: [Kárášjohka]
+    division_name: kommune
+    from: 1866-01-01
+    to: 2019-12-31
+    was: [L2:kistrand:1861]
+    became: [L2:karasjok:2020]
+
+  - id: L2:karasjok:2020
+    parent: L1:troms-og-finnmark:2020
+    name: Karasjok
+    alt_names: [Kárášjohka]
+    division_name: kommune
+    from: 2020-01-01
+    to: 2023-12-31
+    was: [L2:karasjok:1866]
+    became: [L2:karasjok:2024]
+
+  - id: L2:karasjok:2024
+    parent: L1:finnmark:2024
+    name: Karasjok
+    alt_names: [Kárášjohka]
+    division_name: kommune
+    from: 2024-01-01
+    to: null
+    was: [L2:karasjok:2020]

@@ -1,0 +1,10 @@
+divisions:
+
+  - id: L2:nord-varanger:1894
+    parent: L1:finnmark:1787
+    name: Nord-Varanger
+    division_name: kommune
+    from: 1894-01-01
+    to: 1963-12-31
+    was: [L2:vadso:1864]
+    became: [L2:vadso:1964]

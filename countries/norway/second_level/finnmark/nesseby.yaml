@@ -1,0 +1,46 @@
+divisions:
+
+  - id: L2:nesseby:1839
+    parent: L1:finnmark:1787
+    name: Nesseby
+    alt_names: [Næsseby,Unjárga]
+    division_name: kommune
+    from: 1839-01-01
+    to: 1857-12-31
+    was: [L2:vadso:1838]
+    became: [L2:vadso:1858]
+
+  - id: L2:nesseby:1864
+    parent: L1:finnmark:1787
+    name: Nesseby
+    alt_names: [Næsseby,Unjárga]
+    from: 1864-01-01
+    to: 1902-12-31
+    was: [L2:vadso:1858]
+    became: [L2:nesseby:1903,L2:polmak:1903]
+
+  - id: L2:nesseby:1903
+    parent: L1:finnmark:1787
+    name: Nesseby
+    alt_names: [Næsseby,Unjárga]
+    from: 1903-01-01
+    to: 2019-12-31
+    was: [L2:nesseby:1864]
+    became: [L2:nesseby:2020]
+
+  - id: L2:nesseby:2020
+    parent: L1:troms-og-finnmark:2020
+    name: Nesseby
+    alt_names: [Næsseby,Unjárga]
+    from: 2020-01-01
+    to: 2023-12-31
+    was: [L2:nesseby:1903]
+    became: [L2:nesseby:2024]
+
+  - id: L2:nesseby:2024
+    parent: L1:finnmark:2024
+    name: Nesseby
+    alt_names: [Næsseby,Unjárga]
+    from: 2024-01-01
+    to: null
+    was: [L2:nesseby:2020]

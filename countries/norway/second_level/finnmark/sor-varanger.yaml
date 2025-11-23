@@ -1,0 +1,30 @@
+divisions:
+
+  - id: L2:sor-varanger:1858
+    parent: L1:finnmark:1787
+    name: Sør-Varanger
+    alt_names: [Sor-Varanger,Máttá-Várjjat]
+    division_name: kommune
+    from: 1858-07-01
+    to: 2019-12-31
+    was: [L2:vadso:1838]
+    became: [L2:sor-varanger:2020]
+
+  - id: L2:sor-varanger:2020
+    parent: L1:troms-og-finnmark:2020
+    name: Sør-Varanger
+    alt_names: [Sor-Varanger,Máttá-Várjjat]
+    division_name: kommune
+    from: 2020-01-01
+    to: 2023-12-31
+    was: [L2:sor-varanger:1858]
+    became: [L2:sor-varanger:2024]
+
+  - id: L2:sor-varanger:2024
+    parent: L1:finnmark:2024
+    name: Sør-Varanger
+    alt_names: [Sor-Varanger,Máttá-Várjjat]
+    division_name: kommune
+    from: 2024-01-01
+    to: null
+    was: [L2:sor-varanger:2020]

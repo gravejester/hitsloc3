@@ -1,0 +1,40 @@
+divisions:
+
+  - id: L2:kjelvik:1861
+    parent: L1:finnmark:1787
+    name: Kjelvik
+    alt_names: [Nordkapp,Davvinjárga,Nordkáhppa]
+    division_name: kommune
+    from: 1861-01-01
+    to: 1949-12-31
+    was: [L2:kistrand:1851]
+    became: [L2:nordkapp:1950]
+
+  - id: L2:nordkapp:1950
+    parent: L1:finnmark:1919
+    name: Nordkapp
+    alt_names: [Davvinjárga,Nordkáhppa]
+    division_name: kommune
+    from: 1950-01-01
+    to: 2019-12-31
+    was: [L2:kjelvik:1861]
+    became: [L2:nordkapp:2020]
+
+  - id: L2:nordkapp:2020
+    parent: L1:troms-og-finnmark:2020
+    name: Nordkapp
+    alt_names: [Davvinjárga,Nordkáhppa]
+    division_name: kommune
+    from: 2020-01-01
+    to: 2023-12-31
+    was: [L2:nordkapp:1950]
+    became: [L2:nordkapp:2024]
+
+  - id: L2:nordkapp:2024
+    parent: L1:finnmark:2024
+    name: Nordkapp
+    alt_names: [Davvinjárga,Nordkáhppa]
+    division_name: kommune
+    from: 2024-01-01
+    to: null
+    was: [L2:nordkapp:2020]
