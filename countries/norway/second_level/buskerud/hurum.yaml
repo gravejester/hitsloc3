@@ -1,7 +1,5 @@
 divisions:
 
-  # HURUM KOMMUNE
-
   - id: L2:hurum:1837
     parent: L1:buskerud:1685
     name: Hurum

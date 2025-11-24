@@ -1,7 +1,5 @@
 divisions:
 
-  # Røyken KOMMUNE
-
   - id: L2:royken:1837
     parent: L1:buskerud:1685
     name: Røyken
